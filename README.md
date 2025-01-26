@@ -59,48 +59,6 @@ Here are some key visualizations and analysis results that highlight the most si
    
 8. **Entry-Level Employees** are more likely to leave, with an attrition rate of **27%**.
 
----
-
-## **Distribution of Numerical Columns for Employees Who Left (Attrition = Yes) Using Histograms**
-
-Histograms are used to visualize how specific numerical columns (e.g., Age, MonthlyIncome, YearsAtCompany) are distributed for employees who left the company ("Attrition = Yes").
-
-### **Key Insights from Histograms:**
-- **Age**: Younger employees (e.g., ages 25–35) dominate the "Attrition = Yes" category.  
-- **Monthly Income**: Employees with **lower income** levels could have a visible peak in the histogram, indicating a higher likelihood of attrition.  
-- **Years at Company**: Employees who leave might have shorter tenures, with a noticeable peak around **1–2 years**.
-
-#### Histograms for Numerical Columns:
-- **Age**
-- **MonthlyIncome**
-- **TotalWorkingYears**
-- **DistanceFromHome**
-- **YearsAtCompany**
-- **TrainingTimesLastYear**
-- **PercentSalaryHike**
-
----
-
-## **Machine Learning Model Evaluation**
-
-In addition to the analysis, several machine learning models were built and evaluated to predict employee attrition:
-
-### **Models Used:**
-- **Random Forest Classifier**
-- **Logistic Regression**
-- **K-Nearest Neighbors (KNN)**
-
-These models were tested and evaluated based on:
-- **Accuracy**
-- **Precision**
-- **Recall**
-- **F1-Score**
-
-### **Best Model: Random Forest**
-The **Random Forest Classifier** performed the best in terms of accuracy and balance between precision and recall.
-
----
-
 ## **Findings and Recommendations for HR Department**
 
 ### **Employees Are More Likely to Leave If:**
@@ -154,9 +112,12 @@ The **Random Forest Classifier** performed the best in terms of accuracy and bal
 10. **Promote Supportive Leadership**  
    - Ensure **good management** and regular feedback, especially for newer or middle-management employees.
 
----
 
-## **Technical Details (For Those Interested)**
+
+
+
+
+## **Technical Details (For Those who are Interested)**
 
 ### **Data Preprocessing**
 - Categorical variables were **encoded** using one-hot encoding.
@@ -167,6 +128,28 @@ The **Random Forest Classifier** performed the best in terms of accuracy and bal
 - Split data into training and test sets using **Stratified Split** to maintain the distribution of the target variable.
 - Evaluated multiple models including **Random Forest**, **Logistic Regression**, and **KNN**.
 - Key metrics for evaluation included **confusion matrix**, **classification report**, and **cross-validation**.
+
+---
+
+---
+
+## **Machine Learning Model Evaluation**
+
+In addition to the analysis, several machine learning models were built and evaluated to predict employee attrition:
+
+### **Models Used:**
+- **Random Forest Classifier**
+- **Logistic Regression**
+- **K-Nearest Neighbors (KNN)**
+
+These models were tested and evaluated based on:
+- **Accuracy**
+- **Precision**
+- **Recall**
+- **F1-Score**
+
+### **Best Model: Random Forest**
+The **Random Forest Classifier** performed the best in terms of accuracy and balance between precision and recall.
 
 ---
 
