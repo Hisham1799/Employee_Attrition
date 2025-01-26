@@ -30,12 +30,14 @@ Here are some key visualizations and analysis results that highlight the most si
 ### **4. Attrition vs Monthly Income**
 - Employees with **lower monthly income** tend to leave the company more frequently.
 
-![Attrition vs Monthly Income](images/attrition_vs_income.png)
+![attrition_vs_income](https://github.com/user-attachments/assets/f3665bc5-cb5d-4f06-be17-6d72ceab75a3)
+
 
 ### **5. Attrition vs Years at Company**
 - Employees who have been with the company for **fewer years** are more likely to leave.
 
-![Attrition vs Years at Company](images/attrition_vs_years_at_company.png)
+![attrition_vs_years_at_company](https://github.com/user-attachments/assets/3893d8f1-eb83-45b7-878d-1c2701ff0be1)
+
 
 ---
 
