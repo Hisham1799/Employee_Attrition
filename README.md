@@ -128,6 +128,8 @@ Here are some key visualizations and analysis results that highlight the most si
 - Split data into training and test sets using **Stratified Split** to maintain the distribution of the target variable.
 - Evaluated multiple models including **Random Forest**, **Logistic Regression**, and **KNN**.
 - Key metrics for evaluation included **confusion matrix**, **classification report**, and **cross-validation**.
+![Code1](https://github.com/user-attachments/assets/74a561be-1c10-4254-bdd6-bbe2d1d0b244)
+![Code2](https://github.com/user-attachments/assets/b29ffd03-d6b3-42eb-b445-89c0b58e0e3c)
 
 ---
 
@@ -147,6 +149,9 @@ These models were tested and evaluated based on:
 - **Precision**
 - **Recall**
 - **F1-Score**
+![Code3](https://github.com/user-attachments/assets/7815883f-2837-4644-9916-6334fca8c63a)
+![Code4](https://github.com/user-attachments/assets/c54cd456-5fc6-455b-bfd8-66b8b5c361e7)
+![Code5](https://github.com/user-attachments/assets/eb377813-06ba-4e64-8fbc-9259573750f8)
 
 ### **Best Model: Random Forest**
 The **Random Forest Classifier** performed the best in terms of accuracy and balance between precision and recall.
