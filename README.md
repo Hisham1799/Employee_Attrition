@@ -30,12 +30,14 @@ Here are some key visualizations and analysis results that highlight the most si
 ### **4. Attrition vs Monthly Income**
 - Employees with **lower monthly income** tend to leave the company more frequently.
 
-![Attrition vs Monthly Income](images/attrition_vs_income.png)
+![attrition_vs_income](https://github.com/user-attachments/assets/f3665bc5-cb5d-4f06-be17-6d72ceab75a3)
+
 
 ### **5. Attrition vs Years at Company**
 - Employees who have been with the company for **fewer years** are more likely to leave.
 
-![Attrition vs Years at Company](images/attrition_vs_years_at_company.png)
+![attrition_vs_years_at_company](https://github.com/user-attachments/assets/3893d8f1-eb83-45b7-878d-1c2701ff0be1)
+
 
 ---
 
@@ -56,48 +58,6 @@ Here are some key visualizations and analysis results that highlight the most si
 7. **Males** are more likely to leave with an attrition rate of **18%**.
    
 8. **Entry-Level Employees** are more likely to leave, with an attrition rate of **27%**.
-
----
-
-## **Distribution of Numerical Columns for Employees Who Left (Attrition = Yes) Using Histograms**
-
-Histograms are used to visualize how specific numerical columns (e.g., Age, MonthlyIncome, YearsAtCompany) are distributed for employees who left the company ("Attrition = Yes").
-
-### **Key Insights from Histograms:**
-- **Age**: Younger employees (e.g., ages 25–35) dominate the "Attrition = Yes" category.  
-- **Monthly Income**: Employees with **lower income** levels could have a visible peak in the histogram, indicating a higher likelihood of attrition.  
-- **Years at Company**: Employees who leave might have shorter tenures, with a noticeable peak around **1–2 years**.
-
-#### Histograms for Numerical Columns:
-- **Age**
-- **MonthlyIncome**
-- **TotalWorkingYears**
-- **DistanceFromHome**
-- **YearsAtCompany**
-- **TrainingTimesLastYear**
-- **PercentSalaryHike**
-
----
-
-## **Machine Learning Model Evaluation**
-
-In addition to the analysis, several machine learning models were built and evaluated to predict employee attrition:
-
-### **Models Used:**
-- **Random Forest Classifier**
-- **Logistic Regression**
-- **K-Nearest Neighbors (KNN)**
-
-These models were tested and evaluated based on:
-- **Accuracy**
-- **Precision**
-- **Recall**
-- **F1-Score**
-
-### **Best Model: Random Forest**
-The **Random Forest Classifier** performed the best in terms of accuracy and balance between precision and recall.
-
----
 
 ## **Findings and Recommendations for HR Department**
 
@@ -152,9 +112,12 @@ The **Random Forest Classifier** performed the best in terms of accuracy and bal
 10. **Promote Supportive Leadership**  
    - Ensure **good management** and regular feedback, especially for newer or middle-management employees.
 
----
 
-## **Technical Details (For Those Interested)**
+
+
+
+
+## **Technical Details (For Those who are Interested)**
 
 ### **Data Preprocessing**
 - Categorical variables were **encoded** using one-hot encoding.
@@ -165,6 +128,33 @@ The **Random Forest Classifier** performed the best in terms of accuracy and bal
 - Split data into training and test sets using **Stratified Split** to maintain the distribution of the target variable.
 - Evaluated multiple models including **Random Forest**, **Logistic Regression**, and **KNN**.
 - Key metrics for evaluation included **confusion matrix**, **classification report**, and **cross-validation**.
+![Code1](https://github.com/user-attachments/assets/74a561be-1c10-4254-bdd6-bbe2d1d0b244)
+![Code2](https://github.com/user-attachments/assets/b29ffd03-d6b3-42eb-b445-89c0b58e0e3c)
+
+---
+
+---
+
+## **Machine Learning Model Evaluation**
+
+In addition to the analysis, several machine learning models were built and evaluated to predict employee attrition:
+
+### **Models Used:**
+- **Random Forest Classifier**
+- **Logistic Regression**
+- **K-Nearest Neighbors (KNN)**
+
+These models were tested and evaluated based on:
+- **Accuracy**
+- **Precision**
+- **Recall**
+- **F1-Score**
+![Code3](https://github.com/user-attachments/assets/7815883f-2837-4644-9916-6334fca8c63a)
+![Code4](https://github.com/user-attachments/assets/c54cd456-5fc6-455b-bfd8-66b8b5c361e7)
+![Code5](https://github.com/user-attachments/assets/eb377813-06ba-4e64-8fbc-9259573750f8)
+
+### **Best Model: Random Forest**
+The **Random Forest Classifier** performed the best in terms of accuracy and balance between precision and recall.
 
 ---
 
